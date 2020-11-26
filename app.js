@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const http = require('http');
-const TikTokScraper = require('./build');
+const TikTokScraper = require('tiktok-scraper');
 
 const app = express()
 const port = process.env.PORT || 5000;
